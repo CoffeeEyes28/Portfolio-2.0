@@ -6,6 +6,8 @@ import { Container } from "react-bootstrap";
 
 import Typewriter from 'typewriter-effect'
 
+import { motion } from 'framer-motion';
+
 export default function Home(){
 
 
@@ -14,7 +16,13 @@ export default function Home(){
 
 
     return (
-        <div>
+        <motion.div
+        initial={{ y: -20, opacity: 0}}
+        animate={{y: 0, opacity: 1}}
+        exit={{y: 20, opacity: 0}}
+        
+        
+        >
            
             <Container className=" m-2 p-4 d-flex flex-wrap">
             <div className="d-flex flex-row align-items-center">
@@ -56,6 +64,6 @@ export default function Home(){
             </div>
             </Container>
 
-        </div>
+        </motion.div>
     )
 }
