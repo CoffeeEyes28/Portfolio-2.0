@@ -33,7 +33,7 @@ const handleSelect = (selectedIndex, e) => {
 <Carousel activeIndex={index} onSelect={handleSelect} className="w-50">
 {projects.map((project,id) => (
 <Carousel.Item>
-    <a href={project.link} target="_blank">
+    <a href={project.link} target="_blank" rel="noreferrer">
     <img className="w-100 bg-dark" src={project.image} alt={project.title}/>
     </a>
    <br></br>

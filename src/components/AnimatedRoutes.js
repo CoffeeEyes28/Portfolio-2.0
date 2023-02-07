@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Projects from '../pages/Projects';
-
+import Resume from '../pages/Resume';
 import {AnimatePresence} from 'framer-motion';
 
  export default function AnimatedRoutes() {
@@ -29,6 +29,9 @@ import {AnimatePresence} from 'framer-motion';
     element={<Projects/>}
     />
 
+    <Route path='/resume'
+    element={<Resume/>}
+    />
     </Routes>
     </AnimatePresence>
   )
