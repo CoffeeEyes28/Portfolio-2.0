@@ -36,15 +36,6 @@ const handleSelect = (selectedIndex, e) => {
     <a href={project.link} target="_blank" rel="noreferrer">
     <img className="w-100 bg-dark" src={project.image} alt={project.title}/>
     </a>
-   <br></br>
-   <br></br>
-   <br></br>
-   <br></br>
-   <br></br>
-   <br></br>
-   <br></br>
-   <br></br>
-   <br></br>
     <Carousel.Caption className="p-2 text-light bg-dark">
         <h2>{project.title}</h2>
         <p>{project.description}</p>

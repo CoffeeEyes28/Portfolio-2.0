@@ -15,7 +15,7 @@ export default function NavBar(){
 
 
     return(
-        <Navbar bg='dark' variant="dark">
+        <Navbar bg='dark'  variant="dark">
         <Container>
         <Navbar.Brand href='/'>Gregory Johnston</Navbar.Brand>
         <Nav className="me-auto">
