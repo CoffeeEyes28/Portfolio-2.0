@@ -11,6 +11,7 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
+import { Container } from "react-bootstrap";
 
 const Resume = () => {
   return (
@@ -30,8 +31,8 @@ const Resume = () => {
         </div>
 
         <br></br>
-
-        <Timeline position="alternate" className="d-flex flex-column align-items-centerjustify-content-center bg-dark ">
+      <div className="container-fluid  d-flex flex-column justify-content-center bg-dark">
+        <Timeline position="alternate">
           <TimelineItem>
             <TimelineSeparator>
               <TimelineDot />
@@ -76,6 +77,7 @@ const Resume = () => {
           </div>
         </div>
         </Timeline>
+        </div>
         <br></br>
       </div>
     </motion.div>

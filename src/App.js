@@ -10,6 +10,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import AnimatedRoutes from './components/AnimatedRoutes';
 
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
   <Router>
    <AnimatedRoutes />
   </Router>
+ 
+  <Footer/>
     </div>
   );
 }
