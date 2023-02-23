@@ -1,0 +1,25 @@
+.about{
+    margin-bottom: 150px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .about {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+      }
+      
+      .about .flex-row {
+        flex-direction: column !important;
+      }
+      
+      .about .col-6 {
+        width: 100% !important;
+      }
+    
+}

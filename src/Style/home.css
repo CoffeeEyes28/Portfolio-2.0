@@ -1,0 +1,26 @@
+.home {
+    margin-bottom: 150px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .home {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center;
+    }
+    
+    .home .flex-row {
+      flex-direction: column !important;
+    }
+    
+    .home .col-6 {
+      width: 100% !important;
+    }
+  }

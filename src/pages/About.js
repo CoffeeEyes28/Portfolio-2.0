@@ -1,4 +1,5 @@
 import React from "react";
+import "../Style/about.css";
 
 
 import aboutPic from '../Assets/Images/about.JPG'
@@ -26,6 +27,7 @@ export default function About(){
         initial={{ y: -20, opacity: 0}}
         animate={{y: 0, opacity: 1}}
         exit={{y: 20, opacity: 0}}
+        className="about"
         >
         <Container className="text-white m-2 p-4 d-flex flex-wrap">
             <div className="d-flex flex-row align-items-center">
@@ -35,6 +37,7 @@ export default function About(){
             <Image className="w-100 shadow rounded-circle"  src={aboutPic} alt='Gregory Johnston'/>
             </Container>
             </div>
+            <br></br>
 
             <div className="d-flex col-6 text-center">
             <Container>

@@ -1,4 +1,5 @@
 import React from "react";
+import "../Style/home.css";
 import profile from '../Assets/Images/profile.jpg'
 
 import Image from 'react-bootstrap/Image'
@@ -20,7 +21,7 @@ export default function Home(){
         initial={{ y: -20, opacity: 0}}
         animate={{y: 0, opacity: 1}}
         exit={{y: 20, opacity: 0}}
-        
+        className="home"
         
         >
            
@@ -28,12 +29,12 @@ export default function Home(){
             <div className="d-flex flex-row align-items-center">
 
 
-            <div className="d-flex flex-col align-items-center">
+            <div className="d-flex flex-column align-items-center">
             <Container>
             <Image className="w-100 h-100 shadow" roundedCircle='true' src={profile} alt="Gregory Johnston"/>
             </Container>
             </div>
-
+            <br></br>
             <div className="d-flex col-6 text-center">
             <Container>
             <h1 className="text-light" style={{fontSize: '60px'}}>Hello, I'm Greg</h1>

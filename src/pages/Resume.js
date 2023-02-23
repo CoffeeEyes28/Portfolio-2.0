@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../Style/resume.css';
 import resume from "../Assets/GregoryJohnstonResume.docx";
 import logo from "../Assets/Images/portfolio-logo.png";
 import { motion } from "framer-motion";
@@ -19,6 +19,7 @@ const Resume = () => {
       initial={{ y: -20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       exit={{ y: 20, opacity: 0 }}
+      className="resume"
     >
       <div className="d-flex flex-column justify-cotent-center">
         <div className="d-flex flex-row justify-content-center">
@@ -27,11 +28,11 @@ const Resume = () => {
        
       
         <div className="d-flex flex-row justify-content-center">
-        <img alt="Techincal Skills: HTML, CSS, JavaScript, Node.js, MySql, React, MongoDB" src={logo}/>
+        <img className="logo"alt="Techincal Skills: HTML, CSS, JavaScript, Node.js, MySql, React, MongoDB" src={logo}/>
         </div>
 
         <br></br>
-      <div className="container-fluid  d-flex flex-column justify-content-center bg-dark">
+      <div className="container-fluid   pb-4 d-flex flex-column justify-content-center bg-dark">
         <Timeline position="alternate">
           <TimelineItem>
             <TimelineSeparator>
