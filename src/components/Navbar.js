@@ -34,10 +34,10 @@ export default function NavBar(){
         </Offcanvas.Header>
         <Offcanvas.Body>
         <Nav className="justify-content-start flex-grow-1 pe-3">
-            <Nav.Link href={`${process.env.PUBLIC_URL}/`}>Home</Nav.Link>
-            <Nav.Link href={`${process.env.PUBLIC_URL}/about`}>About</Nav.Link>
-            <Nav.Link href={`${process.env.PUBLIC_URL}/projects`}>Projects</Nav.Link>
-            <Nav.Link href={`${process.env.PUBLIC_URL}/resume`}>Resume</Nav.Link>
+            <Nav.Link href={`${process.env.PUBLIC_URL}/#/`}>Home</Nav.Link>
+            <Nav.Link href={`${process.env.PUBLIC_URL}/#/about`}>About</Nav.Link>
+            <Nav.Link href={`${process.env.PUBLIC_URL}/#/projects`}>Projects</Nav.Link>
+            <Nav.Link href={`${process.env.PUBLIC_URL}/#/resume`}>Resume</Nav.Link>
         </Nav>
         </Offcanvas.Body>
         </Navbar.Offcanvas>
