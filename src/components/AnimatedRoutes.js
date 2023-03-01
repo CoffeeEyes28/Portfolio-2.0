@@ -16,20 +16,20 @@ import {AnimatePresence} from 'framer-motion';
         
     <Routes location={location} key={location.pathname}>
     <Route 
-    path='/Portfolio-2.0/'
+    path='/'
     element={<Home/>}
     />
     <Route 
-    path='/Portfolio-2.0/about' 
+    path='/about' 
     element={<About/>}
     />
 
     <Route 
-    path='/Portfolio-2.0/projects' 
+    path='/projects' 
     element={<Projects/>}
     />
 
-    <Route path='/Portfolio-2.0/resume'
+    <Route path='/resume'
     element={<Resume/>}
     />
     </Routes>
