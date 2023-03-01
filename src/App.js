@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <Header />
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router >
    <AnimatedRoutes />
   </Router>
  
