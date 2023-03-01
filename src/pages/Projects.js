@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+
 import "../Style/projects.css";
 
 import { motion } from 'framer-motion'
@@ -31,7 +32,7 @@ export default function Projects(){
 <div className="container-fluid">
 <div className="row justify-content-center">
 {projects.map((project,id) => (
-<div className="col-lg-3 mx-md-2 mb-md-2 mt-md-2 bg-dark ">
+<div className="col-lg-3 mx-md-2 mb-md-2 mt-md-2 bg-dark " key={project.title}>
     <div className="d-flex justify-content-center py-2">
     <a href={project.link} target="_blank" rel="noreferrer">
     <img className="projectImg" src={project.image} alt={project.title}/>
