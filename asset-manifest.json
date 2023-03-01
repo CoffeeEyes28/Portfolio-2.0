@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio-2.0/static/css/main.d95487da.css",
-    "main.js": "/portfolio-2.0/static/js/main.b7b5ff03.js",
-    "static/js/787.b597a222.chunk.js": "/portfolio-2.0/static/js/787.b597a222.chunk.js",
-    "static/media/medley.png": "/portfolio-2.0/static/media/medley.19071f0809255dd141d7.png",
-    "static/media/furrever.png": "/portfolio-2.0/static/media/furrever.a193941dda60ceea56bd.png",
-    "static/media/portfolio-background.jpg": "/portfolio-2.0/static/media/portfolio-background.7d2350c3ac4be8ed981f.jpg",
-    "static/media/GregoryJohnstonResume.docx": "/portfolio-2.0/static/media/GregoryJohnstonResume.c81f863584285dba718b.docx",
-    "static/media/portfolio-logo.png": "/portfolio-2.0/static/media/portfolio-logo.53b9ea12393584c73419.png",
-    "static/media/profile.jpg": "/portfolio-2.0/static/media/profile.cff4aa72a51c70c168c0.jpg",
-    "static/media/anon.png": "/portfolio-2.0/static/media/anon.c84dda97e14b5672f542.png",
-    "static/media/about.JPG": "/portfolio-2.0/static/media/about.b7d72b46b71d48b41df9.JPG",
-    "static/media/linkedin.png": "/portfolio-2.0/static/media/linkedin.bf34d6877011977497d6.png",
-    "static/media/github.png": "/portfolio-2.0/static/media/github.d00a0810d65ab25c323b.png",
-    "static/media/logo.svg": "/portfolio-2.0/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/portfolio-2.0/index.html",
-    "main.d95487da.css.map": "/portfolio-2.0/static/css/main.d95487da.css.map",
-    "main.b7b5ff03.js.map": "/portfolio-2.0/static/js/main.b7b5ff03.js.map",
-    "787.b597a222.chunk.js.map": "/portfolio-2.0/static/js/787.b597a222.chunk.js.map"
+    "main.css": "/Portfolio-2.0/static/css/main.cde1910e.css",
+    "main.js": "/Portfolio-2.0/static/js/main.20ac6ad1.js",
+    "static/js/787.b597a222.chunk.js": "/Portfolio-2.0/static/js/787.b597a222.chunk.js",
+    "static/media/medley.png": "/Portfolio-2.0/static/media/medley.19071f0809255dd141d7.png",
+    "static/media/furrever.png": "/Portfolio-2.0/static/media/furrever.a193941dda60ceea56bd.png",
+    "static/media/portfolio-background.jpg": "/Portfolio-2.0/static/media/portfolio-background.7d2350c3ac4be8ed981f.jpg",
+    "static/media/GregoryJohnstonResume.docx": "/Portfolio-2.0/static/media/GregoryJohnstonResume.c81f863584285dba718b.docx",
+    "static/media/portfolio-logo.png": "/Portfolio-2.0/static/media/portfolio-logo.53b9ea12393584c73419.png",
+    "static/media/profile.jpg": "/Portfolio-2.0/static/media/profile.cff4aa72a51c70c168c0.jpg",
+    "static/media/anon.png": "/Portfolio-2.0/static/media/anon.c84dda97e14b5672f542.png",
+    "static/media/about.JPG": "/Portfolio-2.0/static/media/about.b7d72b46b71d48b41df9.JPG",
+    "static/media/linkedin.png": "/Portfolio-2.0/static/media/linkedin.bf34d6877011977497d6.png",
+    "static/media/github.png": "/Portfolio-2.0/static/media/github.d00a0810d65ab25c323b.png",
+    "static/media/logo.svg": "/Portfolio-2.0/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Portfolio-2.0/index.html",
+    "main.cde1910e.css.map": "/Portfolio-2.0/static/css/main.cde1910e.css.map",
+    "main.20ac6ad1.js.map": "/Portfolio-2.0/static/js/main.20ac6ad1.js.map",
+    "787.b597a222.chunk.js.map": "/Portfolio-2.0/static/js/787.b597a222.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d95487da.css",
-    "static/js/main.b7b5ff03.js"
+    "static/css/main.cde1910e.css",
+    "static/js/main.20ac6ad1.js"
   ]
 }
