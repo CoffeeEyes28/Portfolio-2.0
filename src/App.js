@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter , Routes, Route, useLocation } from 'react-router-dom';
 
 
 
@@ -16,9 +16,9 @@ function App() {
   return (
     <div>
       <Header />
-  <Router >
+  <BrowserRouter >
    <AnimatedRoutes />
-  </Router>
+  </BrowserRouter>
  
   <Footer/>
     </div>
