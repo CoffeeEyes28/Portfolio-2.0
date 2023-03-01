@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
+    // App.js
     <div>
       <Header />
   <Router basename={process.env.PUBLIC_URL} >
