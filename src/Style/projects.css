@@ -3,15 +3,18 @@
 }
 
 .projectImg{
-    width: 1000px;
+    max-width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 
 
 
-
-
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .projectImg{
         width: 800px
     }
@@ -28,4 +31,4 @@
     .projectImg{
         width: 400px
     }
-}
+} */
