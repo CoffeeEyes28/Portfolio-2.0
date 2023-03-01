@@ -16,20 +16,20 @@ import {AnimatePresence} from 'framer-motion';
         
     <Routes location={location} key={location.pathname}>
     <Route 
-    path={`${process.env.PUBLIC_URL}/`}
+    path='/'
     element={<Home/>}
     />
     <Route 
-    path={`${process.env.PUBLIC_URL}/about`}
+    path='/about'
     element={<About/>}
     />
 
     <Route 
-    path={`${process.env.PUBLIC_URL}/projects`}
+    path='/projects'
     element={<Projects/>}
     />
 
-    <Route path={`${process.env.PUBLIC_URL}/resume`}
+    <Route path='/resume'
     element={<Resume/>}
     />
     </Routes>
