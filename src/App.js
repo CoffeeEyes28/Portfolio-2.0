@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <Header />
-  <Router >
+  <Router basename='/'>
    <AnimatedRoutes />
   </Router>
  
