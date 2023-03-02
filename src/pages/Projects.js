@@ -42,8 +42,10 @@ export default function Projects(){
     <br></br>
     <div className="bg-dark text-center text-light">
         <h2>{project.title}</h2>
+        <hr></hr>
         <p>{project.description}</p>
         <br></br>
+        
         <h4>Built with:</h4>
         <p>{project.tools}</p>
         <a href={project.repo} target="_blank" rel="noreferrer"><p>GitHub</p></a>
