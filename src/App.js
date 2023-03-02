@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { BrowserRouter as Router , Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router , Routes, Route, useLocation } from 'react-router-dom';
 
 
 
@@ -17,7 +17,7 @@ function App() {
     
     <div>
       <Header />
-  <Router basename={process.env.PUBLIC_URL} >
+  <Router >
    <AnimatedRoutes />
   </Router>
  

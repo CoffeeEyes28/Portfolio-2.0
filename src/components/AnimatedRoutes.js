@@ -11,6 +11,7 @@ import {AnimatePresence} from 'framer-motion';
 
  export default function AnimatedRoutes() {
     const location = useLocation();
+    console.log(location)
   return (
     <AnimatePresence>
         
