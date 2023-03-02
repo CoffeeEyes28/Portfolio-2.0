@@ -17,7 +17,7 @@ function App() {
     
     <div>
       <Header />
-  <Router >
+  <Router  >
    <AnimatedRoutes />
   </Router>
  
