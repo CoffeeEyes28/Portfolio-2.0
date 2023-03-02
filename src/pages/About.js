@@ -43,7 +43,7 @@ export default function About(){
             <Container>
             <h1 >About</h1>
           
-            <p > Greg is a Full Stack Web Developer with a background in customer service and team management. They are considred to be a fast learner and resilient in the face of any challenge. Amongst their peers and team members they have been highly regarded as dependable and a positive influence on morale. </p>
+            <p > Greg is a Full Stack Web Developer with a background in customer service and team management. They are considered to be a fast learner and resilient in the face of any challenge. Amongst their peers and team members they have been highly regarded as dependable and a positive influence on morale. </p>
             
             
             </Container>
