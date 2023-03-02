@@ -19,7 +19,7 @@ export default function NavBar(){
        
             <Navbar bg='dark' variant="dark" expand='md' className='mb-3'>
         <Container fluid>
-        <Navbar.Brand href='/#/'>Gregory Johnston</Navbar.Brand>
+        <Navbar.Brand href='https://coffeeeyes28.github.io/Portfolio-2.0/#/'>Gregory Johnston</Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`}/>
         <Navbar.Offcanvas
         className="bg-dark text-light"
@@ -34,10 +34,10 @@ export default function NavBar(){
         </Offcanvas.Header>
         <Offcanvas.Body>
         <Nav className="justify-content-start flex-grow-1 pe-3">
-            <Nav.Link href='/#/'>Home</Nav.Link>
-            <Nav.Link href='/#/about'>About</Nav.Link>
-            <Nav.Link href='/#/projects'>Projects</Nav.Link>
-            <Nav.Link href='/#/resume'>Resume</Nav.Link>
+            <Nav.Link href='https://coffeeeyes28.github.io/Portfolio-2.0/#/'>Home</Nav.Link>
+            <Nav.Link href='https://coffeeeyes28.github.io/Portfolio-2.0/#/about'>About</Nav.Link>
+            <Nav.Link href='https://coffeeeyes28.github.io/Portfolio-2.0/#/projects'>Projects</Nav.Link>
+            <Nav.Link href='https://coffeeeyes28.github.io/Portfolio-2.0/#/resume'>Resume</Nav.Link>
         </Nav>
         </Offcanvas.Body>
         </Navbar.Offcanvas>
